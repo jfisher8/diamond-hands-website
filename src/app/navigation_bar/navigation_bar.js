@@ -14,7 +14,7 @@ const Navbar = () => {
                   <p>Non-ready Option</p>
               </li>
               <li>
-                <Link href="/layout"><p>3rd option</p></Link>
+                <Link href="/third_page"><p>3rd option</p></Link>
               </li>
             </ul>
           </div>

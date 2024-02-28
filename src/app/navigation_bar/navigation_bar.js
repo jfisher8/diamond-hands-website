@@ -3,23 +3,27 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <div className="w-full h-20 bg-emerald-800 sticky top-0">
-        <div className="container mx-auto px-4 h-full">
-          <div className="flex justify-between items-center h-full">
-            <ul className="hidden md:flex gap-x-6 text-white">
+      <div className="Navbar w-full h-8 bg-emerald-800 sticky">
+          <div className="flex justify-center">
+            <ul className="md:flex gap-x-20 text-white padding-40">
               <li>
-                <Link href="/home"><p>Go Home</p></Link>
+                <Link href="/pages/home">
+                  Go Home
+                </Link>
               </li>
               <li>
-                  <p>Non-ready Option</p>
+                <Link href="/non-ready">
+                    <p>Non-ready Option</p>
+                </Link>
               </li>
               <li>
-                <Link href="/third_page"><p>3rd option</p></Link>
+                <Link href="/pages/third">
+                    3rd option
+                </Link>
               </li>
             </ul>
           </div>
         </div>
-      </div>
     </>
   );
 };

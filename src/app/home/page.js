@@ -1,10 +1,10 @@
-import Navbar from "../navigation_bar/navigation_bar";
-import "./globals.css";
+import Navbar from "../navigation_bar/navigation";
+
 
 const Home = () => {
     return (
       <html lang="en">
-        <body className={inter.className}>
+        <body>
           <Navbar/>
           <h1>test home page</h1>
           </body>

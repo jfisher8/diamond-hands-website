@@ -7,7 +7,7 @@ const Navbar = () => {
           <div className="flex justify-center">
             <ul className="md:flex gap-x-20 text-white padding-40">
               <li>
-                <Link href="/pages/home">
+                <Link href="/home">
                   Go Home
                 </Link>
               </li>
@@ -17,7 +17,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/pages/third">
+                <Link href="/third">
                     3rd option
                 </Link>
               </li>

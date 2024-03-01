@@ -1,18 +1,12 @@
-import Navbar from "./navigation_bar/navigation_bar";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import Navbar from "./navigation_bar/navigation"
 
-const inter = Inter({ subsets: ["latin"] });
-
-const Layout = () => {
-  return (
+export default function RootLayout({ children }) {
+ return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <Navbar/>
-        <p1>Home</p1>
-        </body>
+        {children}
+      </body>
     </html>
   )
 }
-
-export default Layout;

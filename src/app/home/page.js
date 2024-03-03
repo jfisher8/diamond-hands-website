@@ -4,8 +4,10 @@ const Home = () => {
     return (
       <html lang="en">
         <body>
-          <Navbar/>
               <h1>Test home page</h1>
+              <div>
+                <p>This is a test paragraph</p>
+              </div>
           </body>
       </html>
   )

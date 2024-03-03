@@ -5,7 +5,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Navbar/>
-        <h1>Test 3rd page</h1>
+        <h1>To-be download page</h1>
         </body>
     </html>
   );

@@ -8,17 +8,17 @@ const Navbar = () => {
             <ul className="md:flex gap-x-20 text-white padding-40">
               <li>
                 <Link href="/home">
-                  Go Home
+                  Home
                 </Link>
               </li>
               <li>
                 <Link href="/non-ready">
-                    <p>Non-ready Option</p>
+                    <p>About</p>
                 </Link>
               </li>
               <li>
-                <Link href="/third">
-                    3rd option
+                <Link href="/download">
+                    Download
                 </Link>
               </li>
             </ul>
